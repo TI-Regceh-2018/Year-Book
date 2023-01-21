@@ -1,0 +1,2 @@
+{{-- Customizeable Script --}}
+@yield('script')
