@@ -12,5 +12,6 @@
 <div class="w-100 h-100 d-flex justify-content-center align-items-center">
     <h1 style="margin-top: 20rem">Dashboard</h1>
 </div>
+
 {{-- CONTENT GOES HERE --}}
 @endsection
