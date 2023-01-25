@@ -1,0 +1,46 @@
+body {
+    background-color: #ffebd8 !important;
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+.nav-brand {
+    font-weight: 800 !important;
+    font-size: 32px;
+    line-height: 40px;
+}
+.navbar-nav.pull-right .nav-item {
+    margin: 0 1rem;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    width: 150px !important;
+    height: 40px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item.active {
+    background: #cdf637 !important;
+    border: 1px solid #000000 !important;
+    border-radius: 30px !important;
+}
+.underline {
+    border-bottom: 1px solid #1e1e1e;
+    margin: 0 5rem;
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar-nav.pull-right .nav-item {
+        margin: 0.5rem 0;
+        width: 100% !important;
+        justify-content: start;
+        padding: 0.5rem;
+        padding-left: 1rem;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .underline {
+        border-bottom: 1px solid #1e1e1e;
+        margin: 0;
+    }
+}
