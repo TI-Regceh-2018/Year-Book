@@ -65,4 +65,6 @@ $ php artisan serve
 2. Create a branch with name as same as our ticket number.
 3. Do the development.
 4. Commit and push to our branch.
-5. Open Pull Request to `master` branch.
+5. Pull origin newest master
+   `$ git pull origin master --no-rebase`
+6. Open Pull Request to `master` branch.
