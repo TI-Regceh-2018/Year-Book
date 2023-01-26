@@ -5,7 +5,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Maba TI Regceh '18 - @yield('title')</title>
+    <title>Regceh 18 - @yield('title')</title>
 
     <!-- Page Style -->
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap/bootstrap.min.css') }}">
