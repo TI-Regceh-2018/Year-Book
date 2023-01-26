@@ -13,7 +13,7 @@
 }
 .love-wrapper {
     margin: 3rem 5rem 0 5rem;
-    justify-content: space-between;
+    justify-content: center;
 }
 .love-wrapper .card.profile {
     background: #ffffff;
