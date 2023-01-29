@@ -7,6 +7,7 @@ body {
     font-size: 28px;
     line-height: 40px;
 }
+
 .navbar-nav.pull-right .nav-item {
     margin: 0 1rem;
     font-weight: 400;
@@ -17,6 +18,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.nav-item .nav-link:hover,
+.nav-item .nav-link label:hover {
+    cursor: pointer !important;
 }
 
 .nav-item:hover {

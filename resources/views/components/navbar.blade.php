@@ -10,16 +10,21 @@
 
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav pull-right">
-                    <li class="nav-item active">
-                        <a class="nav-link text-dark p-0" href="#">Love</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark p-0" href="#">Cerita
-                            Kocak</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark p-0" href="#">Album</a>
-                    </li>
+                    <a href="#" class="nav-item active">
+                        <li class="nav-link text-dark p-0">
+                            <label>Love</label>
+                        </li>
+                    </a>
+                    <a href="#" class="nav-item">
+                        <li class="nav-link text-dark p-0">
+                            <label>Cerita Kocak</label>
+                        </li>
+                    </a>
+                    <a href="#" class="nav-item">
+                        <li class="nav-link text-dark p-0">
+                            <label>Album</label>
+                        </li>
+                    </a>
                 </ul>
             </div>
         </div>
