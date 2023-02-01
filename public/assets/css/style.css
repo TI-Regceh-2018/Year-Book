@@ -57,10 +57,15 @@ body {
     border-radius: 40px !important;
     font-weight: 500 !important;
 }
+
 .btn-warning.kepoin-yuk:hover {
     color: #c4ee2c !important;
     background-color: #252525 !important;
     transition: 0.3s ease-in;
+}
+
+input:-webkit-autofill {
+    -webkit-background-clip: text !important;
 }
 
 @media only screen and (max-width: 991px) {
