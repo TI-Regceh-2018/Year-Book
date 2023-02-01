@@ -18,5 +18,4 @@ use App\Http\Controllers\StoryController;
 
 Route::get('/', [IndexController::class, 'index'])->name('dashboard');
 Route::get('/love', [LoveController::class, 'index'])->name('love');
-
 Route::get('/story/masukin', [StoryController::class, 'input_story'])->name('story.input');
