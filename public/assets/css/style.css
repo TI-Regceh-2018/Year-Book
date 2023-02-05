@@ -83,3 +83,12 @@ input:-webkit-autofill {
         margin: 0;
     }
 }
+footer {
+    border: 2px solid;
+    text-align: center;
+    padding: 10px;
+    border-radius: 24px;
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    font-size: 17px;
+    margin: 0 5rem;
+}
