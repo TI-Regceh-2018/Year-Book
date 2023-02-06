@@ -1,6 +1,10 @@
 body {
     background-color: #ffebd8 !important;
     font-family: "Plus Jakarta Sans", sans-serif !important;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .nav-brand {
     font-weight: 800 !important;
@@ -68,6 +72,16 @@ input:-webkit-autofill {
     -webkit-background-clip: text !important;
 }
 
+footer {
+    border: 2px solid;
+    text-align: center;
+    padding: 10px;
+    border-radius: 24px;
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    font-size: 17px;
+    margin: 1.5rem 0rem;
+}
+
 @media only screen and (max-width: 991px) {
     .navbar-nav.pull-right .nav-item {
         margin: 0.5rem 0;
@@ -81,5 +95,19 @@ input:-webkit-autofill {
     .underline {
         border-bottom: 1px solid #1e1e1e;
         margin: 0;
+    }
+}
+@media only screen and (max-width: 485px) {
+    footer {
+        font-size: 14px;
+        padding: 5px;
+        margin: 1.5rem 1rem;
+    }
+}
+@media only screen and (max-width: 380px) {
+    footer {
+        font-size: 11px;
+        padding: 5px;
+        margin: 1.5rem 1rem;
     }
 }
