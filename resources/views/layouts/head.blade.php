@@ -21,6 +21,7 @@
 
     <!-- Google Fonts Link -->
     @googlefonts
+    <link href="https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans" rel="stylesheet" />
 
     <!-- Material Icons Google -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />

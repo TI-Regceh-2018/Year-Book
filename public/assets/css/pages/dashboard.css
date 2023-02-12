@@ -1,0 +1,104 @@
+p,
+.h5,
+.display-1 {
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+
+.card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+@media (min-width:540px) {
+    .display-1 {
+        font-size: 100px !important;
+    }
+
+    .h5 {
+        font-size: 30px !important;
+    }
+}
+
+@media (max-width:539px) {
+    .display-1 {
+        font-size: 25px !important;
+    }
+
+    .h5 {
+        font-size: 12px !important;
+    }
+}
+
+
+.card-text {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.btn-link,
+.btn-link:hover {
+    color: #000000;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.img-fluid {
+    border-radius: 10%;
+}
+
+.container-border {
+    position: relative;
+
+}
+
+.align-items-stretch>.container-border   {
+    height: 100% !important;
+}
+
+.border-div {
+    position: absolute;
+    height: auto;
+    border-radius: 10%;
+    top: 1em;
+    left: 1em;
+    bottom: -1em;
+    right: -1em;
+    border: 2px black solid;
+    z-index: -1;
+}
+
+.display-1 {
+    font-weight: 700;
+    font-size: 128px;
+}
+
+
+.card {
+    border-radius: 2em;
+    text-align: center;
+    border: none;
+    z-index: 1;
+
+    /*  */
+
+}
+
+.card .border {
+    border-radius: 2em;
+    text-align: center;
+    border: 2px black solid !important;
+    background: #FFEBD8;
+    height: 100% !important;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 48px;
+
+}
+
+.card-img-top {
+    padding: 1em;
+}
