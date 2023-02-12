@@ -22,3 +22,4 @@ Route::get('/love', [LoveController::class, 'index'])->name('love');
 Route::get('/album', [AlbumController::class, 'index'])->name('album');
 Route::get('/story/masukin', [StoryController::class, 'input_story'])->name('story.input');
 Route::post('/story/masukin', [StoryController::class, 'store_story'])->name('story.store');
+Route::get('/story', [StoryController::class, 'index'])->name('story');

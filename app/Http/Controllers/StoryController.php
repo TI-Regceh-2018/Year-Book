@@ -74,4 +74,8 @@ class StoryController extends Controller
             return redirect()->back()->with('danger', 'Gagal Coy, Coba Ulang Dah!');
         }
     }
+    public function index()
+    {
+        return view('pages.story');
+    }
 }
