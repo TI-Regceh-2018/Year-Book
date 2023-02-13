@@ -1,6 +1,10 @@
 body {
     background-color: #ffebd8 !important;
     font-family: "Plus Jakarta Sans", sans-serif !important;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .nav-brand {
     font-weight: 800 !important;
@@ -57,10 +61,25 @@ body {
     border-radius: 40px !important;
     font-weight: 500 !important;
 }
+
 .btn-warning.kepoin-yuk:hover {
     color: #c4ee2c !important;
     background-color: #252525 !important;
     transition: 0.3s ease-in;
+}
+
+input:-webkit-autofill {
+    -webkit-background-clip: text !important;
+}
+
+footer {
+    border: 2px solid;
+    text-align: center;
+    padding: 10px;
+    border-radius: 24px;
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    font-size: 17px;
+    margin: 1.5rem 0rem;
 }
 
 @media only screen and (max-width: 991px) {
@@ -76,5 +95,19 @@ body {
     .underline {
         border-bottom: 1px solid #1e1e1e;
         margin: 0;
+    }
+}
+@media only screen and (max-width: 485px) {
+    footer {
+        font-size: 14px;
+        padding: 5px;
+        margin: 1.5rem 1rem;
+    }
+}
+@media only screen and (max-width: 380px) {
+    footer {
+        font-size: 11px;
+        padding: 5px;
+        margin: 1.5rem 1rem;
     }
 }

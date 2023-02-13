@@ -9,9 +9,6 @@
 
 @section('content')
 {{-- CONTENT GOES HERE --}}
-<!-- <div class="w-100 h-100 d-flex justify-content-center align-items-center">
-    <h1 style="margin-top: 20rem">Dashboard</h1>
-</div> -->
 <div class="container mt-5 mb-5">
   <div class="row">
     <div class="col pe-5">
@@ -32,7 +29,6 @@
   <div class="card mt-5">
     <div class="card-body">
       <h5 class="card-title my-4">Stuff We Do Together</h5>
-
       <div class="row p-4 gx-5 gy-3">
         <div class="col-sm-4 mb-3 mb-sm-0 align-items-stretch">
           <div class="container-border">
@@ -71,7 +67,6 @@
           </div>
         </div>
       </div>
-
     </div>
   </div>
 </div>
