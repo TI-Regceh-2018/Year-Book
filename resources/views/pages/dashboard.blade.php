@@ -10,7 +10,7 @@
 @section('content')
 {{-- CONTENT GOES HERE --}}
 <div class="container mt-5 mb-5">
-  <div class="row">
+  <div class="d-row">
     <div class="col pe-5">
       <div class="container-border">
         <div class="border-div"></div>
@@ -20,8 +20,9 @@
     <div class="col">
       <div class="d-flex flex-column justify-content-center h-100">
         <div class="title">
-          <h1 class="display-1">Our</h1>
-          <h1 class="display-1" style="margin-top: -2rem">Memories</h1>
+          <h1 class="display-1 hide-540">Our</h1>
+          <h1 class="display-1 hide-540" style="margin-top: -2rem">Memories</h1>
+          <h1 class="display-1 only-540">Our Memories</h1>
         </div>
         <p class="h5">It's been fun but now I've got to go
           Life it way too short to take it slow
@@ -35,7 +36,7 @@
     <div class="card-body">
       <h5 class="card-title my-4">Stuff We Do Together</h5>
       <div class="row p-4 gx-5 gy-3">
-        <div class="col-sm-4 mb-3 mb-sm-0 align-items-stretch">
+        <div class="col-lg-4 col-12 p-3 align-items-stretch">
           <div class="container-border">
             <div class="border-div"></div>
             <div class="card border">
@@ -43,12 +44,12 @@
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                   card's content.</p>
-                <a href="#" class="btn btn-link">Check our Cerita Kocak</a>
+                <a href="{{ route('story') }}" class="btn btn-link">Check our Cerita Kocak</a>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-sm-4 mb-3 mb-sm-0 align-items-stretch">
+        <div class="col-lg-4 col-12 p-3 align-items-stretch">
           <div class="container-border">
             <div class="border-div"></div>
             <div class="card border">
@@ -56,12 +57,12 @@
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                   card's content.</p>
-                <a href="/love" class="btn btn-link">Check our Love</a>
+                <a href="{{ route('love') }}" class="btn btn-link">Check our Love</a>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-sm-4 align-items-stretch">
+        <div class="col-lg-4 col-12 p-3 align-items-stretch">
           <div class="container-border">
             <div class="border-div"></div>
             <div class="card border">
@@ -69,7 +70,7 @@
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                   card's content.</p>
-                <a href="#" class="btn btn-link">Check our Album</a>
+                <a href="{{ route('album') }}" class="btn btn-link">Check our Album</a>
               </div>
             </div>
           </div>

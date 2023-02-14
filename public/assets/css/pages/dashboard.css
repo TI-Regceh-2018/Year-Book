@@ -4,6 +4,11 @@ p,
     font-family: "Plus Jakarta Sans", sans-serif !important;
 }
 
+.d-row {
+    display: flex;
+    flex-direction: row;
+}
+
 .card-text {
     display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -45,8 +50,6 @@ p,
     text-align: center;
     border: none;
     z-index: 1;
-
-    /*  */
 }
 
 .card .border {
@@ -78,29 +81,128 @@ p,
     top: 1em;
     left: 0.5em;
     bottom: -1em;
-    right: 0em;
+    right: -1em;
     border: 2px black solid;
     z-index: -1;
 }
 p.h5 {
-    font-size: 25px !important;
+    font-size: 25fpx !important;
     font-weight: 300 !important;
     text-align: justify;
     width: 90%;
 }
-
-@media (min-width: 540px) {
+.only-540 {
+    display: none;
+}
+@media only screen and (max-width: 991px) {
+    .d-row {
+        display: flex;
+        flex-direction: column;
+    }
+    .col.pe-5 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 !important;
+    }
+    .col.pe-5 .border-div {
+        position: absolute;
+        height: auto;
+        border-radius: 10%;
+        top: 1em;
+        left: 0.5em;
+        bottom: -1em;
+        right: -1em;
+        border: 2px black solid;
+        z-index: -1;
+    }
+    .title {
+        margin-top: 2em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
     .display-1 {
-        font-size: 100px !important;
+        margin: 0 20px 0 0 !important;
+        font-size: 80px !important;
+    }
+    p.h5 {
+        text-align: center;
+        width: 100%;
     }
 }
-
-@media (max-width: 539px) {
+@media only screen and (max-width: 768px) {
     .display-1 {
-        font-size: 25px !important;
+        margin: 0 20px 0 0 !important;
+        font-size: 60px !important;
     }
-
-    .h5 {
-        font-size: 12px !important;
+    p.h5 {
+        text-align: center;
+        width: 100%;
+        font-size: 18px;
+        padding: 0 3em;
+    }
+}
+@media only screen and (max-width: 540px) {
+    main {
+        padding: 0 2rem;
+    }
+    .title {
+        margin-top: 1.5rem;
+    }
+    .display-1 {
+        margin: 0 20px 0 0 !important;
+        font-size: 40px !important;
+    }
+    p.h5 {
+        text-align: center;
+        width: 100%;
+        font-size: 15px;
+        padding: 0 2em;
+    }
+    .border-div {
+        display: none;
+    }
+    .only-540 {
+        margin: 0 !important;
+        display: block;
+    }
+    .hide-540 {
+        display: none;
+    }
+    .card.mt-5 {
+        margin-top: 3rem !important;
+    }
+    .card-title {
+        font-weight: 600;
+        font-size: 30px;
+        margin-bottom: 0 !important;
+    }
+}
+@media only screen and (max-width: 400px) {
+    main {
+        padding: 0 1rem;
+    }
+    .card.mt-5 {
+        margin-top: 1.5rem !important;
+    }
+    .card-title {
+        font-weight: 600;
+        font-size: 40px;
+        margin-bottom: 0 !important;
+    }
+}
+@media only screen and (max-width: 325px) {
+    main {
+        padding: 0 1rem;
+    }
+    .display-1 {
+        font-size: 30px !important;
+        margin-bottom: 0.5rem !important;
+    }
+    p.h5 {
+        width: 100% !important;
+        padding: 0 !important;
     }
 }
