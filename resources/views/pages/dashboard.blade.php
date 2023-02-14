@@ -18,12 +18,17 @@
       </div>
     </div>
     <div class="col">
-      <h1 class="display-1">Our <br> Memories</h1>
-      <p class="h5 w-75">It's been fun but now I've got to go
-        Life it way too short to take it slow
-        But before I go and hit the road
-        I gotta know, 'til then,
-        When can we do this again?</p>
+      <div class="d-flex flex-column justify-content-center h-100">
+        <div class="title">
+          <h1 class="display-1">Our</h1>
+          <h1 class="display-1" style="margin-top: -2rem">Memories</h1>
+        </div>
+        <p class="h5">It's been fun but now I've got to go
+          Life it way too short to take it slow
+          But before I go and hit the road
+          I gotta know, 'til then,
+          When can we do this again?</p>
+      </div>
     </div>
   </div>
   <div class="card mt-5">
@@ -36,7 +41,8 @@
             <div class="card border">
               <img src="assets\images\Mask group.svg" class="card-img-top" alt="...">
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
                 <a href="#" class="btn btn-link">Check our Cerita Kocak</a>
               </div>
             </div>
@@ -48,7 +54,8 @@
             <div class="card border">
               <img src="assets\images\Mask group (1).svg" class="card-img-top" alt="...">
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
                 <a href="/love" class="btn btn-link">Check our Love</a>
               </div>
             </div>
@@ -60,7 +67,8 @@
             <div class="card border">
               <img src="assets\images\Mask group (2).svg" class="card-img-top" alt="...">
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
                 <a href="#" class="btn btn-link">Check our Album</a>
               </div>
             </div>
