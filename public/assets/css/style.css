@@ -68,6 +68,29 @@ body {
     transition: 0.3s ease-in;
 }
 
+a.back-component-link {
+    text-decoration: none;
+    color: #212529;
+    display: flex;
+}
+
+.back-component {
+    transition: 0.2s ease-in;
+    border-radius: 15px;
+}
+
+.back-component:hover {
+    border-radius: 15px;
+    color: #ffebd8;
+    background-color: #212529 !important;
+}
+
+.back-component span {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
 input:-webkit-autofill {
     -webkit-background-clip: text !important;
 }
