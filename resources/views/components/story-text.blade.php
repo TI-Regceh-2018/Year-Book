@@ -1,0 +1,5 @@
+<div class="text-wrapper">
+    <h1>Story Title</h1>
+    <h3>11 November 2018</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quidem neque blanditiis in rerum molestiae, hic asperiores, id vel ut aspernatur suscipit libero nam tenetur assumenda tempore, eum beatae vero veniam facilis natus est quia molestias officia. Labore magni modi eum possimus placeat iusto inventore, necessitatibus, rerum, doloremque molestiae error voluptatem aliquam eligendi illo? Repellat qui aliquid quia. Dicta hic perspiciatis nobis, doloribus consequatur nesciunt ipsum fugit sunt iste dolorem vero, velit fuga labore reiciendis commodi dolor corrupti numquam eum mollitia autem consequuntur sequi officia? Repellat ut vel sequi quasi sunt unde reprehenderit autem a expedita, ratione voluptates nulla error.</p>
+</div>

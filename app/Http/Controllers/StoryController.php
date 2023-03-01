@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 use App\Models\Story;
+use App\Models\Testing;
 
 class StoryController extends Controller
 {
@@ -76,6 +77,7 @@ class StoryController extends Controller
     }
     public function index()
     {
-        return view('pages.story');
+        $testi= Testing::paginate(5);
+        return view('pages.story', compact('testi'));
     }
 }
