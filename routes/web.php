@@ -19,6 +19,8 @@ use App\Http\Controllers\DashboardController;
 
 Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
 Route::get('/love', [LoveController::class, 'index'])->name('love');
+Route::get('/love/masukin', [LoveController::class, 'input_love'])->name('love.input');
+Route::post('/love/masukin', [LoveController::class, 'store_love'])->name('love.store');
 Route::get('/album', [AlbumController::class, 'index'])->name('album');
 Route::get('/story/masukin', [StoryController::class, 'input_story'])->name('story.input');
 Route::post('/story/masukin', [StoryController::class, 'store_story'])->name('story.store');
