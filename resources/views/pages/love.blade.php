@@ -1,6 +1,8 @@
 @extends('layouts.app')
 @section('title', 'Dashboard')
 
+
+
 @section('css')
 <link rel="stylesheet" href="{{ asset('assets/css/pages/love.css') }}">
 @endsection
