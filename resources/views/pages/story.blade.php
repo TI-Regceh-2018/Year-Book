@@ -29,7 +29,7 @@
 
         <div class="row p-5 flex-row-reverse">
             <div class="col-12 col-lg-12 col-xl-6 d-flex justify-content-center">
-                @include('components.photo')
+                @include('components.photo-4pic')
             </div>
             <div class="col-12 col-lg-12 col-xl-6 d-flex justify-content-center">
                 @include('components.story-text-2')
