@@ -1,0 +1,120 @@
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-profile .img-wrapper {
+    height: 400px;
+    width: 100%;
+}
+
+.img-profile .img-wrapper .img {
+    object-fit: cover !important;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    box-shadow: 10px 10px 8px rgba(135, 135, 135, 0.613);
+}
+
+.img-profile .img-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.details {
+    flex-grow: 1;
+}
+
+.details h1.name {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.details h2.panggilan {
+    font-size: 30px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.card-text {
+    font-style: italic !important;
+}
+@media only screen and (max-width: 991px) {
+    .content .row {
+        display: flex !important;
+        flex-direction: row !important;
+    }
+    .content .row .col-6 {
+        margin: 0 1px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    .details h1.name {
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .details h2.panggilan {
+        font-size: 20px;
+        font-weight: 400;
+        font-style: italic;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .back-component {
+        padding: 0 0.5rem !important;
+    }
+    .content .px-4.mt-4 {
+        padding: 0 2rem !important;
+    }
+
+    .content .wrapper {
+        margin-top: 0 !important;
+    }
+    .wrapper .img-profile,
+    .wrapper .details {
+        padding: 2rem 2rem 0 2rem !important;
+    }
+    .makanan-fav {
+        margin: 0 !important;
+    }
+    .details h1.name {
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .details h2.panggilan {
+        font-size: 20px;
+        font-weight: 400;
+        font-style: italic;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .back-component {
+        padding: 0 0.5rem !important;
+    }
+    .content .px-5.mt-4 {
+        padding: 0 0.5rem !important;
+    }
+    .wrapper .img-profile,
+    .wrapper .details {
+        padding: 2rem 0rem 0 0rem !important;
+    }
+    .details h1.name {
+        font-size: 20px;
+        font-weight: 700;
+        margin: 0 !important;
+    }
+    .details h2.panggilan {
+        font-size: 14px;
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    .content .card-others {
+        padding: 0 !important;
+    }
+}

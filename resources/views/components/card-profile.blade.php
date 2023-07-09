@@ -10,7 +10,7 @@
         <p class="card-text">“Some quick example text to build on the card title and make up the bulk of the card's
             content.”</p>
         <div class="d-flex justify-content-center w-100">
-            <a href="#" class="btn btn-warning kepoin-yuk">Kepoin Yuk</a>
+            <a href="{{ route('profile') }}" class="btn btn-warning kepoin-yuk">Kepoin Yuk</a>
         </div>
     </div>
 </div>
