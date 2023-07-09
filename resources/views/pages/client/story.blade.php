@@ -103,8 +103,8 @@
             </div>
             <div class="row g-3 align-items-center mt-4 mb-2">
                 <div class="col-12 text-center">
-                    <button class="btn btn-secondary gajadi">Gajadi Deh!</button>
-                    <button class="btn btn-warning kepoin-yuk">Masukin!</button>
+                    <button type="reset" class="btn btn-secondary gajadi">Gajadi Deh!</button>
+                    <button type="submit" class="btn btn-warning kepoin-yuk">Masukin!</button>
                 </div>
             </div>
 
