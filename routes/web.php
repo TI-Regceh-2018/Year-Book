@@ -22,6 +22,7 @@ Route::get('/love', [LoveController::class, 'index'])->name('love');
 Route::get('/love/masukin', [LoveController::class, 'input_love'])->name('love.input');
 Route::post('/love/masukin', [LoveController::class, 'store_love'])->name('love.store');
 Route::get('/album', [AlbumController::class, 'index'])->name('album');
+Route::get('/album/masukin', [AlbumController::class, 'input_album'])->name('album.input');
 Route::get('/story/masukin', [StoryController::class, 'input_story'])->name('story.input');
 Route::post('/story/masukin', [StoryController::class, 'store_story'])->name('story.store');
 Route::get('/story', [StoryController::class, 'index'])->name('story');
