@@ -66,4 +66,9 @@ class LoveController extends Controller
             return redirect()->back()->with('danger', 'Gagal Coy, Coba Ulang Dah!');
         }
     }
+
+    public function details()
+    {
+        return view('pages.profile');
+    }
 }

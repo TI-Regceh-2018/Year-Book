@@ -29,3 +29,5 @@ Route::post('/album/masukin', [AlbumController::class, 'store_album'])->name('al
 Route::get('/story/masukin', [StoryController::class, 'input_story'])->name('story.input');
 Route::post('/story/masukin', [StoryController::class, 'store_story'])->name('story.store');
 Route::get('/story', [StoryController::class, 'index'])->name('story');
+
+Route::get('/profile', [LoveController::class, 'details'])->name('profile');
