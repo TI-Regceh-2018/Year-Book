@@ -37,7 +37,7 @@
         </div>
         @endif
 
-        <form action="{{ route('story.store') }}" method="POST" enctype="multipart/form-data">
+        <form action="{{ route('album.store') }}" method="POST" enctype="multipart/form-data">
             @csrf
             <div class="row g-3 align-items-center">
                 <div class="col-3">
